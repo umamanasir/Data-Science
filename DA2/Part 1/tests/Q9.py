@@ -1,0 +1,10 @@
+OK_FORMAT = True
+test = {   'name': 'Q9',
+    'points': 5,
+    'suites': [
+        {'cases': [{'code': r"""
+                    >>> assert sorted(countries.keys()) == ['Afghanistan', 'Albania', 'Algeria', 'Angola', 'Argentina', 'Australia', 'Austria', 'Bahamas', 'Bangladesh', 'Belgium', 'Bermuda', 'Brazil', 'Bulgaria', 'BurkinaFaso', 'Cambodia', 'Cameroon', 'Canada', 'CaymanIslands', 'Chile', 'China', 'Colombia', 'Croatia', 'CzechRepublic', 'Denmark', 'DominicanRepublic', 'EastGermany', 'Ecuador', 'Egypt', 'Ethiopia', 'Finland', 'France', 'Georgia', 'Germany', 'Ghana', 'Greece', 'Guatemala', 'HongKong', 'Hungary', 'Iceland', 'India', 'Indonesia', 'Iran', 'Iraq', 'Ireland', 'Israel', 'Italy', 'Jamaica', 'Japan', 'Jordan', 'Kenya', 'Kuwait', 'Latvia', 'Lebanon', 'Liechtenstein', 'Lithuania', 'Luxembourg', 'Malawi', 'Malaysia', 'Malta', 'Mauritius', 'Mexico', 'Montenegro', 'Morocco', 'Mozambique', 'Namibia', 'Nepal', 'Netherlands', 'NewZealand', 'Nicaragua', 'Nigeria', 'Norway', 'Pakistan', 'Panama', 'Paraguay', 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Romania', 'Russia', 'SaudiArabia', 'Senegal', 'Serbia', 'Singapore', 'Slovakia', 'Slovenia', 'Somalia', 'SouthAfrica', 'SouthKorea', 'SovietUnion', 'Spain', 'SriLanka', 'Sudan', 'Sweden', 'Switzerland', 'Syria', 'Taiwan', 'Thailand', 'Turkey', 'UnitedArabEmirates', 'UnitedKingdom', 'UnitedStates', 'Uruguay', 'VaticanCity', 'Venezuela', 'Vietnam', 'WestGermany', 'Zimbabwe']
+                    >>> assert sorted(countries.values()) == [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 9, 9, 10, 10, 10, 10, 10, 10, 13, 15, 17, 18, 19, 19, 19, 19, 20, 22, 22, 24, 25, 26, 27, 31, 32, 34, 35, 48, 48, 60, 65, 65, 68, 74, 81, 84, 85, 86, 96, 98, 99, 101, 109, 124, 161, 167, 293, 295, 485, 940, 2485]
+                    """,
+                    'hidden': False, 'locked': False}]
+        , 'scored': True, 'setup': '', 'teardown': '', 'type': 'doctest'}]}
